@@ -36,6 +36,8 @@ let jugadores = async () =>{
         nombre = result.innerText;
         let jugador = [];
         for(var i = 0; i < 24; i++ ){
+            console.log(typeof(nombre));
+            console.log(typeof(names[0]));
            if (name === names[i]){
                console.log("bien");
                jugador.push(lista[i]);
